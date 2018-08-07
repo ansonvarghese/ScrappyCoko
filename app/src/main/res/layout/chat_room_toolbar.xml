@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="start">
+
+    <LinearLayout
+        android:gravity="start"
+        android:id="@+id/conversation_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/abc_action_bar_up_description"
+        android:orientation="horizontal"
+        tools:ignore="PrivateResource">
+
+        <ImageView
+            android:id="@+id/home_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            android:layout_gravity="start|center"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/image_overlay"
+            android:layout_gravity="start|center"
+            android:scaleType="fitCenter"
+            tools:ignore="ContentDescription" />
+        <RelativeLayout
+            android:id="@+id/icon_front"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:fillAfter="false"
+            android:fillEnabled="false">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/conversation_contact_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/next_to_normal_text_view" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/conversation_image"
+        android:layout_toEndOf="@id/conversation_image"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/action_bar_title_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/action_bar_title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:textSize="10sp" >
+            </TextView>
+    </LinearLayout>
+</RelativeLayout>

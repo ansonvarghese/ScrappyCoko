@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FAFAFA" android:orientation="vertical" android:layout_marginTop="@dimen/fragment_feeds_header_margin" android:visibility="visible" android:id="@+id/total_linear_layout" android:paddingRight="@dimen/fragment_feeds_inner_margin_left_right" android:paddingLeft="@dimen/fragment_feeds_inner_margin_left_right">
+    <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view_list" android:layout_width="match_parent" android:background="@color/chatBG" android:layout_height="match_parent" android:layout_gravity="center_vertical" />
+</LinearLayout>

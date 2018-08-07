@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myscrap.view.SquaredFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivItemGridImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:progressBarImage="@drawable/custom_image_progress"
+        fresco:placeholderImage="@drawable/place_holder_view_image"
+        fresco:progressBarImageScaleType="center"
+        fresco:progressBarAutoRotateInterval="1000"
+        android:adjustViewBounds="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/overall_active_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/half_transparent"
+            android:clickable="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/hidden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_hidden_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hidden"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/reported_post_content"
+                android:textColor="@color/msPrimaryTextColor"
+                android:textSize="@dimen/normal_text_size" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/ic_report_bottom"
+                android:layout_width="@dimen/like_comment_button"
+                android:layout_height="@dimen/like_comment_button"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/image"
+                android:src="@drawable/more_new"
+                android:tint="@color/black" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</com.myscrap.view.SquaredFrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.myscrap.view.SquaredFrameLayout
+                android:id="@+id/message_image_layout"
+                android:layout_width="@dimen/message_layout_width"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/message_layout_width"
+
+                android:visibility="visible">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/squaredImageView"
+                    fresco:actualImageScaleType="centerCrop"
+                    fresco:roundedCornerRadius="@dimen/border_view_radius"
+                    fresco:roundingBorderColor="@color/fb_view_bg"
+                    fresco:roundingBorderWidth="2dp"
+                    fresco:progressBarImage="@drawable/custom_image_progress"
+                    fresco:placeholderImage="@drawable/border_view_image"
+                    fresco:progressBarImageScaleType="center"
+                    fresco:progressBarAutoRotateInterval="1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true" />
+
+                <ProgressBar android:id="@+id/progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_gravity="center|center_horizontal" android:layout_height="wrap_content" />
+            </com.myscrap.view.SquaredFrameLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/timestamp"
+            style="@style/chat_timings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/picture"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/msStatusBarTextColor"
+            android:visibility="visible" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/user_reply_status"
+            android:layout_width="@dimen/user_reply_status"
+            android:layout_height="@dimen/user_reply_status"
+            android:layout_alignBottom="@+id/picture"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            fresco:placeholderImageScaleType="none"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/image_overlay"
+            android:contentDescription="@string/user_reply_status"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

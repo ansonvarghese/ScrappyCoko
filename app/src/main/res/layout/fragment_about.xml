@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb_view_bg"
+    tools:context="com.myscrap.AboutFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pepperWhite"
+        android:scrollbars="vertical">
+
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout   android:background="@drawable/ripple_empty_bg"  android:padding="10dp" android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical|start">
+                <ImageView   android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" android:tint="@android:color/black" android:src="@drawable/ic_info_outline_black_24dp" />
+                <TextView android:id="@+id/version" android:text="Version" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="start" android:padding="5dp"  android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view"  />
+            </LinearLayout>
+            <View android:id="@+id/edit_profile_view" android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/edit_profile_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+               <RelativeLayout android:layout_width="match_parent" android:gravity="center_vertical" android:layout_height="match_parent">
+                   <TextView android:layout_width="wrap_content" android:layout_gravity="center" android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="Notifications"  android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+                   <Switch android:id="@+id/notification_switcher"  android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:layout_height="wrap_content" />
+               </RelativeLayout>
+            </LinearLayout>
+            <View android:id="@+id/change_password_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/change_password_layout"  android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+                <ImageView android:visibility="gone" android:src="@drawable/ic_vpn_key_black_24dp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:layout_width="match_parent" android:layout_gravity="center"  android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="Change Password" android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:visibility="gone" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/tips_layout"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+                <ImageView android:src="@drawable/ic_info_outline_black_24dp" android:visibility="gone" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:layout_width="match_parent" android:layout_gravity="center" android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="Tips" android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/general_information_layout"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+                <ImageView android:src="@drawable/ic_info_outline_black_24dp" android:visibility="gone" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:layout_width="match_parent" android:layout_gravity="center" android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="General Information" android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/privacy_layout"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+                <TextView android:layout_width="match_parent" android:layout_gravity="center"   android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="Privacy &amp; Policy" android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/terms_and_condition_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/ripple_empty_bg" android:padding="10dp">
+                <TextView android:layout_width="match_parent" android:layout_gravity="center"   android:layout_height="wrap_content" android:gravity="start" android:padding="5dp" android:text="Terms &amp; Conditions" android:textStyle="normal" android:textColor="@android:color/black" android:textSize="@dimen/next_to_normal_text_view" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:visibility="gone"  android:layout_height="1dp" android:background="@color/divider" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

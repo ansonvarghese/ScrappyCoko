@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605563401441",
+    "firebase_url": "https://myscrap-1479538067818.firebaseio.com",
+    "project_id": "myscrap-1479538067818",
+    "storage_bucket": "myscrap-1479538067818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605563401441:android:803a298082ff852a",
+        "android_client_info": {
+          "package_name": "com.myscrap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605563401441-fqaq5j05e8dbo9d1jkqfmrs1r1h9fvaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGPRmy1nnmSv8Q5cXnoRJ8j_M-cSc4euA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

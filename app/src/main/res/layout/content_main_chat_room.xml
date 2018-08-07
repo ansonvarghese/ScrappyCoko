@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myscrap.MainChatRoomActivity"
+    tools:showIn="@layout/activity_main_chat_room">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/chatBG"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/active_now_layout"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/active_now"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/x_normal_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:visibility="gone"
+                android:background="@drawable/shadow" />
+            <android.support.v7.widget.RecyclerView
+                android:background="@color/chatBG"
+                android:id="@+id/active_now_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/active_now_see_all_layout"
+                android:visibility="gone"
+                android:text="@string/see_all"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center|end"
+                android:textSize="@dimen/x_normal_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/shadow" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:background="@color/chatBG"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

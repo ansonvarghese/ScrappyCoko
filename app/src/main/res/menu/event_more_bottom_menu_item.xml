@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_invite"
+        android:title="Invite Friends" />
+    <item
+        android:id="@+id/menu_edit"
+        android:title="Edit Event" />
+    <item
+        android:id="@+id/menu_report"
+        android:title="Report Event" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Delete Event" />
+</menu>

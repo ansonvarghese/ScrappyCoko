@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/swipe"
+    android:background="@color/fb_view_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myscrap.CompanyProfileActivity"
+    tools:showIn="@layout/activity_company_profile">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:fillViewport="true" android:visibility="gone" android:id="@+id/total_layout" android:background="@color/fb_view_bg" android:layout_height="wrap_content" android:orientation="vertical">
+        <FrameLayout android:layout_width="match_parent" android:background="@color/pepperWhite" android:layout_height="200dp">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/companyProfile" android:layout_width="match_parent" android:scaleType="fitXY" android:layout_height="match_parent" android:adjustViewBounds="true" android:cropToPadding="true" />
+            <ImageView android:id="@+id/companyProfileEdit" android:visibility="gone" android:layout_margin="5dp" android:src="@drawable/dashboard_edit" android:layout_gravity="top|end" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:background="@color/white" android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center" android:layout_margin="10dp" android:orientation="vertical">
+                <TextView android:id="@+id/name" android:layout_gravity="center" android:textColor="@color/black" android:padding="5dp" android:textSize="@dimen/large_text_view" android:textStyle="bold" android:text="Sayed Metal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/subName" android:layout_gravity="center" android:textColor="@color/black" android:padding="2dp" android:textSize="@dimen/next_to_normal_text_view" android:text=" Recycler" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/own_it_layout" android:visibility="visible" android:layout_width="match_parent" android:gravity="center" android:layout_gravity="center" android:padding="10dp" android:orientation="horizontal" android:layout_margin="10dp"  android:layout_height="wrap_content">
+                <TextView android:id="@+id/like" android:layout_weight="0.5" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"  android:layout_gravity="center" android:gravity="center"  android:layout_marginLeft="20dp" android:layout_marginStart="20dp" android:background="@drawable/login_button_style" android:layout_marginEnd="20dp" android:layout_marginRight="20dp" android:textColor="@android:color/white" android:textSize="@dimen/normal_text_size" android:text="LIKE" />
+                <TextView android:id="@+id/own_it" android:layout_weight="0.5" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"  android:layout_gravity="center" android:gravity="center"  android:layout_marginLeft="20dp" android:layout_marginStart="20dp" android:background="@drawable/login_button_style" android:layout_marginEnd="20dp" android:layout_marginRight="20dp" android:textColor="@android:color/white" android:textSize="@dimen/normal_text_size" android:text="OWN IT" />
+            </LinearLayout>
+            <View android:layout_height="0.5dp" android:visibility="gone" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout android:id="@+id/after_own_it_layout" android:visibility="gone"  android:orientation="horizontal" android:layout_width="match_parent" android:gravity="center" android:weightSum="1" android:layout_margin="10dp" android:layout_height="wrap_content">
+                <TextView  android:layout_weight="0.5" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"  android:layout_gravity="center" android:gravity="center"  android:layout_marginLeft="20dp" android:layout_marginStart="20dp" android:background="@drawable/login_button_style" android:layout_marginEnd="20dp" android:layout_marginRight="20dp" android:textColor="@android:color/white" android:textSize="@dimen/normal_text_size" android:text="LIKE" />
+                <TextView android:id="@+id/join" android:layout_weight="0.5" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"  android:layout_gravity="center" android:gravity="center"  android:layout_marginLeft="20dp" android:layout_marginStart="20dp" android:background="@drawable/login_button_style" android:layout_marginEnd="20dp" android:layout_marginRight="20dp" android:textColor="@android:color/white" android:textSize="@dimen/normal_text_size" android:text="JOIN" />
+            </LinearLayout>
+        </LinearLayout>
+            <ImageButton android:id="@+id/btnContacts" android:visibility="visible" android:padding="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"  android:layout_width="wrap_content" android:layout_height="@dimen/like_comment_button" android:layout_gravity="center|end" android:gravity="center" android:background="@android:color/transparent" android:src="@drawable/ic_star_border_black_24dp" />
+        </FrameLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout android:layout_width="match_parent" android:padding="5dp"  android:background="@color/pepperWhiteDark" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+                <TextView android:id="@+id/about" android:padding="5dp"  android:layout_weight="0.33" android:layout_width="0dp" android:textStyle="bold" android:layout_gravity="center" android:gravity="center" android:text="ABOUT" android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/interest" android:padding="5dp"  android:layout_weight="0.33" android:layout_width="0dp" android:textStyle="bold" android:layout_gravity="center" android:gravity="center" android:text="INTERESTS" android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="match_parent" />
+                <TextView android:id="@+id/photos" android:padding="5dp"  android:layout_weight="0.33" android:layout_width="0dp" android:textStyle="bold" android:layout_gravity="center" android:gravity="center" android:text="PHOTOS" android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/like_layout" android:visibility="gone" android:background="@color/white"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout   android:layout_width="match_parent" android:padding="5dp" android:layout_height="wrap_content" android:gravity="center_vertical|start">
+                <ImageView android:layout_marginLeft="5dp" android:layout_marginStart="5dp" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_fav_comp" />
+                <TextSwitcher android:id="@+id/tsCompanyLikesCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/medium_text_size" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:inAnimation="@anim/slide_in_likes_counter" android:outAnimation="@anim/slide_out_likes_counter">
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                </TextSwitcher>
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/visitor_layout" android:visibility="gone" android:background="@color/white"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout   android:layout_width="match_parent" android:padding="5dp" android:layout_height="wrap_content" android:gravity="center_vertical|start">
+                <ImageView android:layout_marginLeft="5dp" android:layout_marginStart="5dp" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_company_visitor" />
+                <TextSwitcher android:id="@+id/tsCompanyVisitorsCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/medium_text_size" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:inAnimation="@anim/slide_in_likes_counter" android:outAnimation="@anim/slide_out_likes_counter">
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                </TextSwitcher>
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/employee_layout" android:background="@color/white" android:visibility="gone"  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout  android:layout_width="match_parent" android:padding="5dp" android:layout_height="wrap_content"  android:gravity="center_vertical|start">
+                <ImageView android:layout_marginLeft="5dp" android:visibility="visible"  android:layout_marginStart="5dp" android:layout_width="24dp" android:layout_height="24dp"  android:src="@drawable/ic_company_employees" />
+                <TextSwitcher android:id="@+id/tsCompanyEmployeeCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:inAnimation="@anim/slide_in_likes_counter" android:outAnimation="@anim/slide_out_likes_counter">
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                </TextSwitcher>
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/employee_join_layout" android:background="@color/white"  android:visibility="gone"   android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout android:layout_width="match_parent" android:padding="5dp" android:layout_height="wrap_content"  android:gravity="center_vertical|start">
+                <ImageView android:layout_marginLeft="5dp" android:visibility="visible"  android:layout_marginStart="5dp" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_add_emp" />
+                <TextSwitcher android:id="@+id/tsCompanyEmployeeJoinCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:inAnimation="@anim/slide_in_likes_counter" android:outAnimation="@anim/slide_out_likes_counter">
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size"  android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                    <TextView android:layout_width="wrap_content" android:textSize="@dimen/medium_text_size" android:layout_height="wrap_content" android:textColor="@android:color/black" />
+                </TextSwitcher>
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/working_hours_layout" android:background="@color/white"  android:visibility="gone"  android:layout_width="match_parent" android:padding="5dp" android:layout_height="wrap_content"  android:gravity="center_vertical|start">
+            <ImageView android:layout_marginLeft="5dp" android:layout_marginStart="5dp" android:layout_width="24dp" android:layout_height="24dp"  android:src="@drawable/ic_working_time" />
+            <TextView android:id="@+id/companyBusinessHours" android:text="" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/medium_text_size" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:visibility="gone" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/post_layout"   android:layout_width="match_parent"  android:layout_height="wrap_content"  android:layout_marginTop="@dimen/fragment_feeds_header_margin" android:layout_marginBottom="@dimen/fragment_feeds_header_margin" android:background="@color/white">
+                <ImageView android:id="@+id/post_profile" android:layout_centerVertical="true"  android:background="@drawable/image_overlay" android:contentDescription="@string/image" android:layout_marginLeft="@dimen/fragment_feeds_header_margin" android:layout_marginRight="@dimen/fragment_feeds_header_margin"  android:layout_width="@dimen/header_avatar_image_size" android:layout_height="@dimen/header_avatar_image_size"  android:scaleType="centerCrop"  android:padding="1dp"/>
+                <RelativeLayout android:id="@+id/post"  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toRightOf="@+id/post_profile" android:layout_toEndOf="@+id/post_profile">
+                    <TextView android:id="@+id/status_edit_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Write a post.." android:gravity="center_horizontal" android:layout_gravity="start|center" android:textColor="@android:color/darker_gray" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_height="0.5dp" android:visibility="gone" android:layout_width="match_parent" android:background="@color/divider" />
+        <LinearLayout
+            android:id="@+id/location_layout"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="start"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="LOCATION"
+            android:textColor="@color/subPrimaryText"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold" />
+            <LinearLayout
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/ic_map"
+                    android:layout_width="24dp"
+                    android:layout_gravity="center"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:id="@+id/location"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/show_hide_map"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:text="@string/show_map"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_height="0.5dp" android:visibility="visible" android:layout_width="match_parent" android:background="@color/divider" />
+        <FrameLayout android:id="@+id/map"  android:layout_margin="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="300dp"  >
+            <com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mapView" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@+id/gps" android:contentDescription="@string/image" android:visibility="gone" android:background="@drawable/ic_gps_fixed_black_24dp" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_company_about_new_padding" android:layout_marginBottom="@dimen/activity_company_about_new_padding" android:layout_marginLeft="@dimen/activity_company_about_new_padding" android:layout_marginRight="@dimen/activity_company_about_new_margin" android:gravity="center" android:layout_gravity="right|top" tools:ignore="RtlHardcoded" />
+        </FrameLayout>
+        <LinearLayout android:id="@+id/gallery_layout" android:layout_width="match_parent" android:visibility="gone" android:layout_marginTop="10dp" android:layout_height="wrap_content" android:orientation="vertical">
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <LinearLayout android:layout_width="match_parent" android:padding="5dp"  android:background="@color/pepperWhiteDark" android:visibility="gone"  android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+                <TextView android:id="@+id/gallery" android:layout_marginLeft="10dp" android:layout_marginStart="10dp" android:padding="5dp"  android:layout_width="match_parent" android:textStyle="bold" android:layout_gravity="center" android:gravity="start" android:text="PHOTOS" android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View  android:layout_height="0.5dp" android:layout_width="match_parent" android:background="@color/divider" />
+            <!--<com.myscrap.view.MyGridView
+                android:layout_margin="5dp"
+                android:id="@+id/grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="120dp"
+                android:numColumns="3"
+                android:verticalSpacing="2dp"
+                android:horizontalSpacing="2dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center"/>-->
+            <LinearLayout android:layout_width="match_parent" android:padding="5dp"  android:background="@color/white" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+                <ImageView android:id="@+id/grid" android:layout_weight="0.5" android:src="@drawable/profile_grid" android:padding="5dp" android:visibility="visible"  android:layout_width="match_parent" android:textStyle="bold" android:layout_gravity="center" android:gravity="start" android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="wrap_content" />
+                <ImageView android:id="@+id/list" android:layout_weight="0.5"  android:src="@drawable/profile_list" android:padding="5dp" android:visibility="visible"  android:layout_width="match_parent" android:textStyle="bold" android:layout_gravity="center" android:gravity="start"  android:textColor="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/grid_recycler_view"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/see_more_photos"
+                android:layout_gravity="end"
+                android:text="See All"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:textColor="@color/subPrimaryText"
+                android:textSize="@dimen/next_to_normal_text_view"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view_feeds" android:layout_marginTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/fb_view_bg" android:scrollbars="none" />
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

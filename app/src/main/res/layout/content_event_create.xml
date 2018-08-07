@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:context="com.myscrap.EventCreateActivity" tools:showIn="@layout/activity_event_create">
+    <android.support.v4.widget.NestedScrollView android:layout_alignParentTop="true" android:layout_width="match_parent" android:layout_above="@+id/create_layout" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="175dp" android:background="@android:color/darker_gray">
+                <ImageView android:id="@+id/event_image" android:contentDescription="event_image" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <TextView android:id="@+id/add_photo" android:text="ADD PHOTO" android:gravity="center" android:layout_gravity="center" android:background="@drawable/trans_button_style" android:textSize="@dimen/small_text_size" android:textColor="@color/white" android:drawableLeft="@drawable/ui_photo_add_s" android:drawableStart="@drawable/ui_photo_add_s" android:drawablePadding="8dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout android:layout_margin="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <EditText android:id="@+id/event_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Event name" android:backgroundTint="@color/colorPrimary" android:textSize="@dimen/x_large_text_view" android:inputType="text" />
+                <LinearLayout android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <ImageView android:layout_marginEnd="10dp" android:layout_marginRight="10dp" android:src="@drawable/event_datetime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                            <LinearLayout android:layout_width="match_parent" android:weightSum="2" android:layout_height="wrap_content" android:orientation="horizontal">
+                                <TextView android:id="@+id/start_date" android:hint="Today" android:textColor="@color/black" android:layout_weight="1" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                                <TextView android:id="@+id/start_time" android:hint="8:00 a.m." android:textColor="@color/black" android:layout_weight="1" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout android:layout_marginTop="16dp" android:layout_width="match_parent" android:weightSum="2" android:layout_height="wrap_content" android:orientation="horizontal">
+                                <TextView android:id="@+id/end_date" android:hint="End date" android:textColor="@color/black" android:layout_weight="1" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                                <TextView android:id="@+id/end_time" android:hint="End time" android:textColor="@color/black" android:layout_weight="1" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/event_location_layout" android:layout_marginTop="16dp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <ImageView android:layout_marginEnd="10dp" android:layout_gravity="center" android:layout_marginRight="10dp" android:src="@drawable/location_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:layout_width="match_parent" android:gravity="center" android:layout_height="wrap_content" android:orientation="vertical">
+                            <EditText android:id="@+id/event_location_name" android:focusable="true" android:inputType="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:color/transparent" android:ellipsize="end" android:hint="Location"  android:focusableInTouchMode="false" android:maxLines="1" android:textSize="@dimen/normal_text_size" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_marginTop="16dp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <ImageView android:layout_marginEnd="10dp" android:tint="#BDC1C9" android:layout_marginRight="10dp" android:src="@drawable/fbui_pencil_m" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:layout_width="match_parent" android:gravity="center" android:layout_height="wrap_content" android:orientation="vertical">
+                            <EditText android:id="@+id/event_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:color/transparent" android:hint="Details" android:inputType="textMultiLine"  android:scrollbars="vertical" android:textSize="@dimen/normal_text_size" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_marginTop="8dp" android:visibility="invisible" android:gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <ImageView android:layout_marginEnd="10dp" android:layout_gravity="center" android:layout_marginRight="10dp" android:tint="#BDC1C9" android:src="@drawable/fbui_envelope_m" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:layout_width="match_parent" android:layout_gravity="start"  android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="2">
+                            <TextView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@android:color/transparent" android:text="Guest can invite friends" android:textSize="@dimen/normal_text_size" android:layout_weight="1" />
+                            <CheckBox  android:id="@+id/event_invite" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <RelativeLayout android:id="@+id/create_layout" android:layout_alignParentBottom="true" android:background="@color/white" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="?actionBarSize">
+        <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/divider"/>
+        <TextView android:id="@+id/create" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/button_style" android:gravity="center" android:text="CREATE" android:padding="8dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:textColor="@color/white" android:textSize="@dimen/normal_text_size" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

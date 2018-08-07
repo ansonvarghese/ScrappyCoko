@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item"
+        android:textSize="@dimen/medium_text_size"
+        android:background="@drawable/interest"
+        android:padding="10dp"
+        android:tag="click"
+        android:maxLines="2"
+        android:layout_margin="5dp"
+        android:textColor="@color/msSecondaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_letter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"/>
+
+        <TextView
+            android:text="Privacy Policy General"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/xx_large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="How do we protect your information?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We implement a variety of security measures to maintain the safety of your personal information when you enter, submit, or access your personal information. We will not share personal information we have collected from you, except as described below:
+·  With your friends on MyScrap with whom you want to stay in contact on MyScrap, and according to the preferences set in your account.
+·  When we believe in good faith that we are lawfully authorized or required to do so or that doing so is reasonably necessary or appropriate to comply with the law or legal processes or respond to lawful request or legal authorities, including responding to lawful subpoenas, warrants or court orders"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Do we use cookies?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Yes, we use cookies, but only to improve user experience."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Do we disclose any information to outside parties?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other use"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="What information do we collect?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We collect information from you when you register on our site.
+When ordering or registering on our site, as appropriate, you may be asked to enter your: name and e-mail address. You may, however, visit our site anonymously. We collect certain information you provide to us when using MyScrap, such as when you create an account and profile or send us an email or other content to MyScrap. We collect certain information like your name, picture, email address and phone number."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="What do we use your information for? "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Any of the information we collect from you may be used in one of the following ways:
+·  The email address you provide may be used to send you information, respond to inquiries, and/or other requests or questions.
+·  To send periodic emails.
+·  To find and connect with your friends (when instructed by you)
+·  To send you confirmations, updates, security alerts, and support and administrative messages and otherwise facilitate your use of, and our administration and operation of, our services."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="Postings"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Certain Personally-Identifying Information collected from users is disclosed as a matter of course as a result of their use of the Website. We may provide areas on our Website where you may be able to post reviews and other information relating to your activities on the Website. Such postings are governed by our Terms and Conditions. Whenever you voluntarily disclose personal information on publicly-viewable web pages, that information will be publicly available and can be collected and used by others. For example, if you post your email address, you may receive unsolicited messages. We cannot control who reads your posting or what other users may do with the information you voluntarily post, so we encourage you to exercise discretion and caution with respect to your personal information. Users assume all responsibility for any loss of privacy or other harm resulting from their voluntary disclosure of personally identifying information."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Security"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We take security of your Personally-Identifying Information seriously and use reasonable electronic, personnel, and physical measures to protect it from loss, theft, alteration, or misuse. However, please be advised that even the best security measures cannot fully eliminate all risks. We cannot guarantee that only authorized persons will view your information. We are not responsible for third party circumvention of any privacy settings or security measures."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Marketing Communications"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="From time to time, MyScrap may offer its users the opportunity to participate in contests, and other promotions. Any information submitted in connection with such activities will be treated in accordance with this Privacy Policy. From time to time, MyScrap may also ask users to participate in surveys designed to help MyScrap improve the platform. Any Personally-Identifying Information provided to MyScrap in connection with any survey will be used only in relation to that survey, and will be disclosed to third parties not bound by this Privacy Policy only in non-personally-identifying, aggregated form."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Children Online Privacy Protection Act Compliance"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We are in compliance with the requirements of COPPA (Childrens Online Privacy Protection Act), we do not collect any information from anyone under 13 years of age. Our website, products and services are all directed to people who are at least 13 years old or older."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Online Privacy Policy Only"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="This online privacy policy applies only to information collected through our website and mobile apps but not to information collected offline.
+Changing Personally-Identifying Information; Account Termination
+You may at any time review or change your Personally-Identifying Information by going to your account settings. Upon your request, we will deactivate or delete your account and contact information from our active databases. Such information will be deactivated or deleted as soon as practicable based on your account activity and in accordance with our deactivation policy and applicable law. To make this request, either go to your account settings (if applicable) or contact us as provided below. We will retain in our files some personal information to prevent fraud, to troubleshoot problems, to assist with any investigations, to enforce our Terms and Conditions and to comply with legal requirements as is permitted by law. Therefore, you should not expect that all your personal information will be completely removed from our databases in response to your requests. Additionally, we keep a history of changed information to investigate suspected fraud with your account."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Your Consent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="By using our site, you consent to our online privacy policy."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Changes to our Privacy Policy"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="If we decide to change our privacy policy, MyScrap may, in its sole discretion, change this Privacy Policy from time to time. Any and all changes to MyScrap’s users platform will be reflected on this page and the date new versions are posted will be stated at the top of this Privacy Policy. Unless stated otherwise, our current Privacy Policy applies to all information that we have about you and your account. Users should regularly check this page for any changes to its Privacy Policy. MyScrap will always post new versions of the Privacy Policy on the Website. However, MyScrap may, in its discretion, notify users of changes made to this Privacy Policy via email or otherwise. Accordingly, it is important that users always maintain and update their contact information"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/normal_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Contacting Us"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/large_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="If there are any questions regarding our privacy policy, please contact us on support@myscrap.com."
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:autoLink="all"
+            android:textSize="@dimen/normal_text_size"
+            android:textColorLink="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

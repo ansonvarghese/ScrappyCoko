@@ -1,0 +1,140 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb_view_bg"
+    android:clickable="true"
+    android:id="@+id/swipe"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myscrap.FeedsFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_active_friends"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/white"
+                        android:scrollbars="vertical"
+                        android:visibility="visible" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view_feeds"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/fb_view_bg"
+                        android:layout_below="@+id/recycler_active_friends"
+                        android:layout_above="@+id/root_status_layout"
+                        android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/root_status_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_above="@+id/root_status_box_layout"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/mImage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@android:drawable/star_big_on"
+                    android:visibility="invisible" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar3"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/root_status_box_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:background="@color/divider"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/icon_front"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fillAfter="false"
+                    android:fillEnabled="false">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/user_profile"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/image_overlay" />
+
+                    <TextView
+                        android:id="@+id/icon_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/small_text_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/status_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/camera"
+                        android:layout_toStartOf="@+id/camera"
+                        android:background="@drawable/border_view_feeds_status_box"
+                        android:ellipsize="end"
+                        android:gravity="start|center"
+                        android:maxLines="1"
+                        android:text="@string/what_s_on_your_mind"
+                        android:textColor="@color/msStatusBarTextColor"
+                        android:textSize="@dimen/normal_text_size" />
+
+                    <ImageView
+                        android:id="@+id/camera"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="start"
+                        android:layout_margin="8dp"
+                        android:src="@android:drawable/ic_menu_camera" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>

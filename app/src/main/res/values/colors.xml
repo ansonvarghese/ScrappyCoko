@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF216c29</color>
+    <color name="colorPrimaryDark">#FF19511F</color>
+    <color name="colorAccent">#FF19511F</color>
+    <color name="online">#FF42B72A</color>
+
+    <color name="splashStartColor">#19511F</color>
+    <color name="splashEndColor">#216c29</color>
+
+    <color name="guest">#bdbdbd</color>
+    <color name="primaryText">#000000</color>
+    <color name="subPrimaryText">#403f3f</color>
+    <!--<color name="secondaryText">#7c7c7c</color>-->
+    <color name="secondaryText">#999999</color>
+    <color name="background">#F9F9F9</color>
+    <color name="rippleColor" >#80FFFFFF </color>
+    <color name="white">@android:color/white</color>
+    <color name="un_selected_white">#F6F7F8</color>
+    <color name="black">@android:color/black</color>
+    <!--<color name="divider">#BDBDBD</color>-->
+    <!-- <color name="circleColor">#F44336 </color>-->
+    <color name="circleColor">#FF0000 </color>
+    <color name="red">#FF0000 </color>
+    <color name="pepperWhite">#F9F9F9 </color>
+    <!--  <color name="pepperWhiteDark">#e9ebee</color>-->
+    <color name="pepperWhiteDark">#F8F6F8</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="bg_comments">#ffffff</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="card_shadow">#d2d4d9</color>
+    <!--<color name="fb_view_bg">#dcdee3</color>-->
+    <color name="row_activated">#e0e0e0</color>
+    <color name="label">#F5F5F5</color>
+    <!--<color name="fb_background">#d2d4d9</color>-->
+    <color name="textSelectionColor">#B3E5FC </color>
+    <!--<color name="other_chat_bg">#F0F0F0</color>-->
+    <color name="other_chat_bg">#E7E6E8</color>
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="self_chat_bg">#4CAF50</color>
+    <color name="hangoutOther">#F7F8FB  </color>
+    <color name="rippleDarkColor">#D2D4D9</color>
+    <color name="hangoutOutSideBackground">#F1F1F1 </color>
+    <color name="otherSelectText">#FFA6F5AB</color>
+    <color name="inActiveColor">#FFA6F5AB</color>
+    <color name="selfSelectText">#FFD7DED7</color>
+    <color name="half_transparent" >#F2FFFFFF</color>
+    <color name="event_transparent" >#80FFFFFF</color>
+    <color name="chat_room_transparent" >#80FFFFFF</color>
+    <color name="drawer_background" > #f1f2f4</color>
+    <color name="gold">#FFC107</color>
+    <!--<color name="dark_gold">#aa7f3a</color>-->
+    <color name="dark_gold">#996515</color>
+    <color name="silver">#FFB300</color>
+
+
+    <color name="msPrimaryTextColor" >#2e323b</color>
+    <color name="msSecondaryTextColor" >#424b54</color>
+    <color name="msNormalTextColor" >#777e86</color>
+    <color name="msStatusBarTextColor" >#7f8085</color>
+    <!--<color name="divider">#f2f2f2</color> -->
+    <color name="divider">#DEDEE3</color>
+    <color name="fb_view_bg">#DEDEE3</color>
+    <color name="fb_background">#DEDEE3</color>
+    <color name="tag_bg">#DBDBDB</color>
+    <color name="notification_red">#C83535</color>
+    <!--<color name="search_text_highlight">#FFFF00</color>-->
+    <color name="search_text_highlight">#C83535</color>
+    <color name="colorMaroon">#9C302A</color>
+    <color name="updated_profile_pic">#4F5663</color>
+    <color name="updated_new_time_stamp">#9196A3</color>
+    <color name="calendar_cell_select">#CECCCE</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="chatGray">#CFD8DC</color>
+    <!--<color name="chatFB">#D0D0D0</color>
+    <color name="chatBG">#FDFDFD </color>-->
+    <color name="chatFB">#EAEAEA</color>
+    <color name="chatBG">#FAFAFA </color>
+    <!--<color name="news_time_stamp">#858C93</color>-->
+    <color name="news_time_stamp">#757575</color>
+    <color name="mod" >#01A611 </color>
+    <!--<color name="mod" >#014d09 </color>-->
+    <color name="column" >#6c6D6F </color>
+    <color name="row_text" >#343434 </color>
+    <color name="row_darker_gray">#6D6D70</color>
+    <color name="row_one" >#ffffff</color>
+    <color name="row_two" >#e1e0e2</color>
+    <color name="row_up" >#00853f</color>
+    <color name="row_down" >#d22e19</color>
+    <color name="row_up_light" >#008000</color>
+    <color name="row_down_light" >#ff0000</color>
+    <color name="row_title_color">#F5F4F5</color>
+    <color name="place_holder_view">#f2f2f2</color>
+    <color name="placeHolderImage">#BDBDBD</color>
+    <color name="simpletooltip_background">@color/colorPrimary</color>
+    <color name="simpletooltip_text">@android:color/white</color>
+    <color name="simpletooltip_arrow">@color/colorPrimary</color>
+
+
+</resources>

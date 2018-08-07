@@ -1,0 +1,39 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:orientation="vertical" android:fitsSystemWindows="true" tools:context="com.myscrap.EventFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:id="@+id/calendar" android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways" android:layout_margin="8dp" android:orientation="vertical">
+            <TextView android:text="@string/agenda" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="@dimen/next_to_normal_text_view" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:padding="10dp"/>
+            <RelativeLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:background="@drawable/calendar_top" >
+                <RelativeLayout android:id="@+id/previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_centerInParent="true" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" >
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:background="@drawable/bg_see_circle" android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+                </RelativeLayout>
+                <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/white" android:textSize="18sp" android:gravity="center" android:textStyle="bold" android:layout_centerVertical="true" android:layout_centerInParent="true" android:layout_toRightOf="@+id/previous" android:layout_toEndOf="@+id/previous" android:layout_toLeftOf="@+id/next" android:layout_toStartOf="@+id/next" />
+                <RelativeLayout android:id="@+id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" >
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:background="@drawable/bg_see_circle" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView android:id="@+id/weekday_grid_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:listSelector="@android:color/transparent" android:background="#4C5963"  />
+            <android.support.v7.widget.RecyclerView android:id="@+id/grid_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:listSelector="@android:color/transparent"  />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:gravity="top">
+            <TextView android:id="@+id/scheduled_event" android:text="Scheduled Events" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="@dimen/next_to_normal_text_view" android:textStyle="bold" android:textColor="@color/msSecondaryTextColor" android:padding="5dp"/>
+            <FrameLayout android:gravity="top" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView android:id="@+id/event_list" android:background="@color/fb_background" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ProgressBar android:id="@+id/event_load" android:visibility="gone"  android:layout_gravity="center|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_gravity="bottom|end" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" android:tint="@color/white" app:srcCompat="@drawable/ui_event_add_m"/>
+</android.support.design.widget.CoordinatorLayout>

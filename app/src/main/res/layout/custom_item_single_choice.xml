@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:gravity="center"
+    style="@style/MaterialThemeDialog"
+    android:textColor="@color/black"
+    android:checked="false"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:checkMarkTint="@color/online"
+    android:checkMarkTintMode="multiply"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:maxLines="1" />

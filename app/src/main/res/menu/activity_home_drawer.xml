@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feeds"
+            android:icon="@drawable/ic_feeds"
+            android:title="Feeds" />
+
+        <item
+            android:id="@+id/nav_lme"
+            android:icon="@drawable/ic_lme_24dp"
+            android:title="Prices" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="Members" />
+
+        <item
+            android:id="@+id/nav_companies"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="Companies" />
+
+        <item
+            android:id="@+id/nav_viewers"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            app:actionLayout="@layout/nav_viewers_drawer_menu_counter"
+            android:title="Visitors" />
+
+        <item
+            android:id="@+id/nav_bumped"
+            android:icon="@drawable/ic_bumped_black_24dp"
+            app:actionLayout="@layout/nav_viewers_drawer_menu_counter"
+            android:title="Bumped" />
+
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Calendar" />
+
+        <item
+            android:id="@+id/nav_near_by"
+            android:icon="@drawable/ic_near_by"
+            android:title="People Nearby" />
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favourite"
+            android:title="Favourites" />
+
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/ic_shake"
+            android:visible="false"
+            android:title="Shake" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="News" />
+
+
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@drawable/ic_discover"
+            android:title="Discover" />
+
+    </group>
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Invite Friends" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report_black_24dp"
+            android:visible="false"
+            app:actionLayout="@layout/nav_viewers_drawer_menu_counter"
+            android:title="Moderator" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

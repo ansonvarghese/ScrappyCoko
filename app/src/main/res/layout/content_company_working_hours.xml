@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myscrap.CompanyWorkingHoursActivity"
+    tools:showIn="@layout/activity_company_working_hours">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0" android:layout_marginEnd="@dimen/standard_margin" android:layout_marginRight="@dimen/standard_margin" android:layout_marginTop="@dimen/standard_margin" android:layout_marginBottom="@dimen/standard_margin" android:orientation="horizontal" android:baselineAligned="false">
+        <LinearLayout android:layout_width="0dp" android:layout_weight="0.2" android:layout_height="match_parent">
+            <ImageView
+                android:contentDescription="@string/image" android:src="@drawable/ic_timeline_time" android:padding="-5dp" android:layout_gravity="center_vertical|start|top" android:background="@drawable/ripple_empty_bg" android:layout_marginStart="@dimen/company_working_hours_cancel_date_margin" android:layout_marginLeft="@dimen/company_working_hours_cancel_date_margin" android:layout_width="match_parent" android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/hours_layout" android:layout_width="0dp" android:layout_weight="0.8" android:orientation="vertical" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/hours_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

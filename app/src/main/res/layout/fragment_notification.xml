@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.myscrap.NotificationFragment">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:visibility="visible" android:background="@color/white" android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbars="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_empty"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="bottom|center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/empty"
+            android:src="@drawable/ic_notification_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="No Notifications"
+            android:textSize="@dimen/next_to_normal_text_view"
+            android:textColor="@color/secondaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

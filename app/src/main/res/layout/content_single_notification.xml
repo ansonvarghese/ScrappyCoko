@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myscrap.SingleNotificationActivity"
+    tools:showIn="@layout/activity_single_notification">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_marginLeft="@dimen/item_feed_vertical_name_spacing" android:layout_marginStart="@dimen/item_feed_vertical_name_spacing"
+                    android:id="@+id/icon_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/icon_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fillAfter="false"
+                        android:fillEnabled="false">
+
+                        <ImageView
+                            android:layout_width="@dimen/feed_icon_width_height"
+                            android:layout_height="@dimen/feed_icon_width_height"
+                            android:src="@drawable/bg_circle" />
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/icon_front"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fillAfter="false"
+                        android:fillEnabled="false">
+
+                        <ImageView
+                            android:id="@+id/icon_profile"
+                            android:layout_width="@dimen/feed_icon_width_height"
+                            android:layout_height="@dimen/feed_icon_width_height" />
+
+                        <TextView
+                            android:id="@+id/icon_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/next_to_normal_text_view" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <LinearLayout android:layout_marginLeft="10dp" android:layout_marginStart="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:id="@+id/profileName"  android:textStyle="normal"  android:ellipsize="end"  android:text="" android:layout_width="match_parent" android:layout_height="wrap_content"  android:textColor="@color/black" android:textSize="@dimen/normal_text_size" />
+                    <TextView android:id="@+id/company" android:textStyle="normal" android:visibility="gone" android:maxLines="1" android:ellipsize="end" android:text="" android:layout_width="match_parent" android:layout_height="wrap_content"   android:textColor="@color/subPrimaryText" android:textSize="@dimen/medium_text_size" />
+                    <TextView android:id="@+id/designation" android:textStyle="normal" android:maxLines="1" android:ellipsize="end"  android:text="" android:layout_width="match_parent" android:layout_height="wrap_content"  android:textColor="@color/subPrimaryText" android:textSize="@dimen/medium_text_size" />
+                    <TextView android:id="@+id/time" android:textStyle="normal" android:maxLines="1" android:ellipsize="end"  android:text="" android:layout_width="match_parent" android:layout_height="wrap_content"  android:textColor="@color/subPrimaryText" android:textSize="@dimen/small_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/normal_text_size"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:autoLink="all"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.myscrap.view.SquaredFrameLayout
+                android:id="@+id/vImageRoot"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivFeedCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:id="@+id/vBgLike"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_like_circle_background"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ivLike"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_heart_outline_white"
+                    android:visibility="invisible" />
+
+            </com.myscrap.view.SquaredFrameLayout>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/ivFeedBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:visibility="visible"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btnLike"
+                        android:layout_width="@dimen/like_comment_button"
+                        android:layout_height="@dimen/like_comment_button"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_heart_outline_black" />
+
+                    <TextSwitcher
+                        android:id="@+id/tsLikesCounter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center"
+                        android:inAnimation="@anim/slide_in_likes_counter"
+                        android:outAnimation="@anim/slide_out_likes_counter">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/secondaryText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/secondaryText" />
+                    </TextSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btnComments"
+                        android:layout_gravity="center"
+                        android:layout_width="@dimen/like_comment_button"
+                        android:layout_height="@dimen/like_comment_button"
+                        android:background="@drawable/btn_feed_action"
+                        android:src="@drawable/ic_comment_outline_20" />
+
+                    <TextSwitcher
+                        android:id="@+id/tsCommentsCounter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center"
+                        android:inAnimation="@anim/slide_in_likes_counter"
+                        android:outAnimation="@anim/slide_out_likes_counter">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/secondaryText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/secondaryText" />
+                    </TextSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_heart_small_blue" />
+
+                    <TextSwitcher
+                        android:id="@+id/tsLikesCounterr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:inAnimation="@anim/slide_in_likes_counter"
+                        android:outAnimation="@anim/slide_out_likes_counter">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/darker_gray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/darker_gray" />
+                    </TextSwitcher>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

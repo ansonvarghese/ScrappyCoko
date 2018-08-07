@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:context="com.myscrap.StatusActivity" android:background="@color/white" tools:showIn="@layout/activity_status">
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_gravity="start" android:fillViewport="true">
+        <LinearLayout android:id="@+id/touch_layout" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/user_status_layout"  android:layout_width="match_parent"  android:layout_height="wrap_content" android:orientation="vertical" >
+                <RelativeLayout
+                    android:id="@+id/icon_front"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fillAfter="false"
+                    android:layout_marginRight="@dimen/feeds_status_activity_margin"
+                    android:layout_marginLeft="@dimen/feeds_status_activity_margin"
+                    android:layout_marginBottom="@dimen/feeds_status_activity_margin"
+                    android:layout_marginTop="@dimen/feeds_status_activity_margin"
+                    android:fillEnabled="false">
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/feeds_dialog_profile_header_photo"
+                        android:layout_width="@dimen/item_avatar_image_size"
+                        android:layout_height="@dimen/item_avatar_image_size"
+                        android:background="@drawable/image_overlay"
+                        android:padding="1dp"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/icon_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="normal"
+                        android:gravity="center"
+                        android:textSize="@dimen/icon_text" />
+
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        style="@android:style/Widget.ProgressBar.Small.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <RelativeLayout android:layout_centerInParent="true" android:layout_toRightOf="@+id/icon_front" android:layout_toEndOf="@+id/icon_front" android:layout_marginTop="@dimen/feeds_status_activity_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:id="@+id/user_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <TextView android:id="@+id/username" android:layout_width="wrap_content" android:textSize="@dimen/next_to_normal_text_view" android:text="" android:textColor="@color/black" android:textStyle="bold" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_marginTop="@dimen/feeds_status_activity_inner_margin" android:layout_marginBottom="@dimen/feeds_status_activity_inner_margin" android:layout_marginRight="@dimen/feeds_status_activity_inner_margin" android:layout_marginLeft="@dimen/feeds_status_activity_inner_margin" android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/post_edit_text"
+                    android:inputType="textMultiLine"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:lineSpacingExtra="5dp"
+                    android:overScrollMode="always"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="What's on your mind?"
+                    android:textColorHint="@color/secondaryText"
+                    android:textSize="@dimen/large_text_view"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:background="@color/white"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/hint"
+                    android:visibility="gone"
+                    android:scrollbars="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:hint="type '@' to mention members "
+                    android:textColorHint="@color/secondaryText"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:background="@color/white"
+                    tools:ignore="HardcodedText" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:id="@+id/tagging_layout"
+                    android:visibility="gone"
+                    android:layout_height="match_parent" android:orientation="vertical">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText android:id="@+id/input_first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/medium_text_size"
+                            android:drawableEnd="@drawable/ic_clear_mention_input"
+                            android:drawableRight="@drawable/ic_clear_mention_input"
+                            android:inputType=""
+                            android:hint="" >
+                            <requestFocus />
+                        </EditText>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <!--<android.support.v7.widget.RecyclerView  android:id="@+id/tagging" android:background="@color/white"  android:layout_width="match_parent" android:layout_height="match_parent" tools:ignore="RtlHardcoded" />-->
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView  android:id="@+id/tagging" android:background="@color/white"  android:layout_width="match_parent" android:layout_height="wrap_content" tools:ignore="RtlHardcoded" />
+                <android.support.v7.widget.RecyclerView  android:id="@+id/horizontal_recycler_view" android:background="@color/white"  android:layout_width="match_parent" android:layout_height="match_parent" tools:ignore="RtlHardcoded" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:id="@+id/root_status_layout" android:visibility="visible" android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <RelativeLayout android:id="@+id/status_layout" android:layout_margin="8dp" android:layout_weight="1"  android:layout_width="0dp" android:orientation="horizontal" android:layout_height="match_parent" >
+            <TextView android:id="@+id/status" android:textSize="@dimen/next_to_normal_text_view" android:text="@string/add_photos" android:textColor="@color/secondaryText" android:visibility="gone" android:layout_centerInParent="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@+id/camera" android:layout_gravity="start" android:src="@android:drawable/ic_menu_camera" android:background="@drawable/bg_status_box_circle" android:padding="10dp" android:layout_centerInParent="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

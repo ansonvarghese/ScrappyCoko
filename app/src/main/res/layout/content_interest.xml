@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" app:layout_behavior="@string/appbar_scrolling_view_behavior" android:layout_width="match_parent" android:layout_height="match_parent" tools:context="com.myscrap.InterestActivity" tools:showIn="@layout/activity_interest">
+<android.support.v4.widget.NestedScrollView  android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_margin="5dp"  >
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:id="@+id/aboutLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/phoneLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:visibility="gone" android:layout_marginBottom="10dp" android:orientation="vertical">
+                    <TextView android:text="Phone" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/medium_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/number" android:text="" android:drawablePadding="15dp" android:gravity="start|center" android:drawableStart="@drawable/ic_phone_black_24dp" android:drawableLeft="@drawable/ic_phone_black_24dp" android:textColor="@color/colorPrimary" android:padding="2dp"  android:textSize="@dimen/normal_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View android:layout_width="match_parent" android:visibility="visible" android:layout_marginTop="10dp" android:layout_height="1dp" android:background="@color/divider" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/webAddressLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:orientation="vertical">
+                    <TextView android:text="Website" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/medium_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/website" android:drawablePadding="15dp" android:gravity="start|center" android:drawableStart="@drawable/ic_web_black_24dp" android:drawableLeft="@drawable/ic_web_black_24dp" android:text="" android:textColor="@color/colorPrimary" android:padding="2dp"  android:textColorHint="@color/subPrimaryText" android:textSize="@dimen/normal_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View android:layout_width="match_parent" android:visibility="visible" android:layout_marginTop="10dp" android:layout_height="1dp" android:background="@color/divider" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/locationLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:visibility="gone" android:layout_marginBottom="10dp" android:orientation="vertical">
+                    <TextView android:text="Country" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/medium_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/location" android:drawablePadding="15dp" android:gravity="start|center" android:drawableStart="@drawable/ic_location_on_black_24dp" android:drawableLeft="@drawable/ic_location_on_black_24dp"  android:text="" android:textColor="@color/black" android:padding="2dp" android:textSize="@dimen/normal_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View android:layout_width="match_parent" android:visibility="visible" android:layout_marginTop="10dp" android:layout_height="1dp" android:background="@color/divider" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/bioLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:orientation="vertical">
+                    <TextView android:text="Info" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/medium_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@+id/bio" android:drawablePadding="15dp" android:gravity="start|center" android:drawableStart="@drawable/ic_info_black_24dp" android:drawableLeft="@drawable/ic_info_black_24dp"   android:textColor="@color/black" android:padding="2dp" android:textSize="@dimen/normal_text_size" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <View android:layout_width="match_parent" android:visibility="visible" android:layout_marginTop="10dp" android:layout_height="1dp" android:background="@color/divider" />
+                </LinearLayout>
+
+            <LinearLayout android:id="@+id/joinedLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:orientation="vertical">
+                <TextView android:text="Member Since" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/medium_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/join" android:text="" android:drawablePadding="15dp" android:gravity="start|center" android:layout_gravity="start" android:drawableStart="@drawable/ic_access_time_black_24dp" android:drawableLeft="@drawable/ic_access_time_black_24dp"   android:textColor="@color/black" android:padding="2dp" android:textSize="@dimen/normal_text_size" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <View android:layout_width="match_parent" android:visibility="visible" android:layout_marginTop="10dp" android:layout_height="1dp" android:background="@color/divider" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/interestLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:visibility="gone" android:orientation="vertical">
+            <TextView android:text="Interest" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/small_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/divider"/>
+            <TextView android:background="@color/fb_view_bg" android:textSize="@dimen/normal_text_size" android:padding="10dp" android:text="Commodity/Services" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:textColor="@color/msPrimaryTextColor" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/divider"/>
+            <LinearLayout  android:id="@+id/interest" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:orientation="vertical"/>
+            <View android:layout_width="match_parent" android:visibility="gone"  android:layout_height="0.5dp" android:background="@color/divider" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/interestRolesLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:visibility="gone" android:orientation="vertical">
+            <TextView android:text="Roles" android:visibility="gone" android:textColor="@color/secondaryText" android:padding="2dp" android:textSize="@dimen/small_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/divider"/>
+            <TextView  android:background="@color/fb_view_bg" android:textSize="@dimen/normal_text_size" android:padding="10dp" android:text="Roles" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:textColor="@color/msPrimaryTextColor" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/divider"/>
+            <LinearLayout  android:id="@+id/role" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:orientation="vertical"/>
+            <View android:layout_width="match_parent" android:visibility="gone"  android:layout_height="0.5dp" android:background="@color/divider" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+        android:id="@+id/empty_layout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/ic_notes_empty"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Details are not available."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/next_to_normal_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tabbing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@color/white"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            app:tabTextColor="@color/msStatusBarTextColor"
+            app:tabTextAppearance="@style/NavigationTabTextAppearance"
+            app:tabIndicatorHeight="2.5dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shadow"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

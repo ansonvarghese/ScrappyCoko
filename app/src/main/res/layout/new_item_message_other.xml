@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="start">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_view_other_hangout"
+            android:orientation="vertical"
+            android:id="@+id/chat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:visibility="visible"
+                android:maxWidth="@dimen/message_layout_width"
+                android:autoLink="web|email|phone"
+                android:gravity="start|center"
+                android:textColorLink="@color/msSecondaryTextColor"
+                android:textColorHighlight="@color/textSelectionColor"
+                style="@style/other_chat_text_message_style" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/timestamp"
+            style="@style/chat_timings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/chat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/msStatusBarTextColor"
+            android:visibility="gone" />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:visibility="gone"
+            android:id="@+id/user_reply_status"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/user_reply_status"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

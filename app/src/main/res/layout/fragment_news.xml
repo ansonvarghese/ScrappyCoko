@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.myscrap.NewsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_empty_bg"
+            app:tabTextAppearance="@style/NewsNavigationTabTextAppearance"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/msStatusBarTextColor"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabBackground="@color/white"
+            app:tabIndicatorHeight="2.5dp"
+            app:tabMode="fixed"
+            android:elevation="5dp"
+            app:tabGravity="fill"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView android:background="@color/white" android:visibility="gone" android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbars="vertical" />
+    </android.support.v4.widget.SwipeRefreshLayout>-->
+
+</FrameLayout>
