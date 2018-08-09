@@ -60,14 +60,15 @@
         </RelativeLayout>
         <!--<ImageView android:id="@+id/profile" android:contentDescription="@string/profile_content" android:layout_width="60dp" android:layout_height="60dp" app:srcCompat="@android:drawable/sym_def_app_icon" />-->
         <FrameLayout android:id="@+id/messageLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/drawer_icon_bg_circle" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+
             <ImageView
                 android:id="@+id/message"
-                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:contentDescription="@string/message_content"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:gravity="center"
                 android:src="@drawable/ic_email_black_24dp" />
 
             <com.myscrap.utils.CircularTextView

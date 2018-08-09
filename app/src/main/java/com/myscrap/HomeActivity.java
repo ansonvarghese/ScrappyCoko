@@ -54,7 +54,6 @@ import com.google.android.gms.analytics.Tracker;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.myscrap.activity.XMPPChatContactActivity;
 import com.myscrap.application.AppController;
 import com.myscrap.database.MyScrapSQLiteDatabase;
 import com.myscrap.model.ChatRoom;
@@ -311,7 +310,7 @@ public class HomeActivity extends AppCompatActivity
             UserUtils.setMSGNotificationCount(HomeActivity.this, "0");
             HomeActivity.notification();
 
-            startActivity(new Intent(getApplicationContext(), XMPPChatContactActivity.class));
+            //startActivity(new Intent(getApplicationContext(), XMPPChatContactActivity.class));
       //      goToChat();
 
 
@@ -327,7 +326,7 @@ public class HomeActivity extends AppCompatActivity
             UserUtils.setMSGNotificationCount(HomeActivity.this, "0");
             HomeActivity.notification();
 
-            startActivity(new Intent(getApplicationContext(), XMPPChatContactActivity.class));
+           // startActivity(new Intent(getApplicationContext(), XMPPChatContactActivity.class));
 
     //        goToChat();
 
@@ -494,6 +493,8 @@ public class HomeActivity extends AppCompatActivity
         }
         else
         {
+try{
+
             // start service to get server connection
             Intent i1 = new Intent(HomeActivity.this, RoosterConnectionService.class);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
@@ -502,11 +503,16 @@ public class HomeActivity extends AppCompatActivity
             }
             else
             {
-               startService(i1);
-            }
-        }
+               startService(i1); //crashes when this intent is called
+            }}
 
-    }
+catch (Exception e) {
+    // This will catch any exception, because they are all descended from Exception
+    Log.e( "NOtexp ",e.toString() );
+}
+
+
+    }}
 
 
     private void updateSubscriptionField()
@@ -1069,7 +1075,7 @@ public class HomeActivity extends AppCompatActivity
         {
             case R.id.nav_feeds:
                 fragmentClass = FeedsFragment.class;
-                HomeActivity.isContactFavourites = false;
+                HomeActivity.isContactFavourites = true;
                 break;
             case R.id.nav_contacts:
                 if(AppController.getInstance() != null && UserUtils.isGuestLoggedIn(AppController.getInstance())){
@@ -1078,7 +1084,7 @@ public class HomeActivity extends AppCompatActivity
                     return;
                 }
                 fragmentClass = ContactsFragment.class;
-                HomeActivity.isContactFavourites = true;
+                HomeActivity.isContactFavourites = false;
                 clickedItem = "contact";
                 break;
             case R.id.nav_companies:

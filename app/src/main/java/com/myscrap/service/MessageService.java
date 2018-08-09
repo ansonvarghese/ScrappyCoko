@@ -936,21 +936,29 @@ public class MessageService extends Service {
         filter.addAction(ACTION_RESTART_XMPP_SERVICE);
         filter.addAction(ACTION_LOAD_BUMPER_ACK);
         registerReceiver(broadcastReceiver, filter);
-
+//
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            try {
             String CHANNEL_ID = "my_channel_01";
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID,
                     "Channel human readable title",
-                    NotificationManager.IMPORTANCE_DEFAULT);
+                    NotificationManager.IMPORTANCE_HIGH);
 
             ((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).createNotificationChannel(channel);
+
+
 
             Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
                     .setContentTitle("MyScrap")
                     .setContentText("Connected").build();
 
-            startForeground(1, notification);
+                    startForeground(1, notification);
+        }catch (Exception e) {
+    // This will catch any exception, because they are all descended from Exception
+                Log.e( "NOtexp ",e.toString() );
+      }
+
         }
 
 

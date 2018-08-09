@@ -1,12 +1,18 @@
 package com.myscrap.xmpp;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import com.myscrap.service.MessageService;
@@ -95,7 +101,7 @@ public class RoosterConnectionService extends Service
     {
         super.onCreate();
 
-       /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
         {
 
             String CHANNEL_ID = "my_channel_01";
@@ -109,7 +115,7 @@ public class RoosterConnectionService extends Service
                     .setContentText("Connected").build();
             startForeground(1, notification);
 
-        }*/
+        }
         ServerPingWithAlarmManager.onCreate(getApplicationContext());
 
     }

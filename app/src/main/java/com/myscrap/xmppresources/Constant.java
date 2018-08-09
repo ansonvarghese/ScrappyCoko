@@ -10,7 +10,7 @@ public class Constant
     public static final int SEND = 101;
     public static final int RECEIVE = 102;
 
-    public static final String MONU = "monu@s192-169-189-223.secureserver.net";
+ public static final String MONU = "monu@s192-169-189-223.secureserver.net";
 
 
     public static final class BroadCastMessages

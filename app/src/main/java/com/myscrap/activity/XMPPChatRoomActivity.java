@@ -266,7 +266,7 @@ public class XMPPChatRoomActivity extends AppCompatActivity implements XMPPChatA
 
         try
         {
-            friendsBareJid =  JidCreate.entityBareFrom(friendsJID+"@s192-169-189-223.secureserver.net");
+            friendsBareJid =  JidCreate.entityBareFrom(friendsJID+"@192.169.189.223");
         }
         catch (XmppStringprepException e)
         {
@@ -276,7 +276,7 @@ public class XMPPChatRoomActivity extends AppCompatActivity implements XMPPChatA
 
 
 
-        submitBtn.setOnClickListener(new View.OnClickListener() {
+        submitBtn.setOnClickListener(new View.OnClickListener() { //to avoid crash in oreo  paused chat
             @Override
             public void onClick(View view)
             {

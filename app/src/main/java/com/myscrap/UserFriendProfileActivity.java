@@ -802,7 +802,7 @@ public class UserFriendProfileActivity extends AppCompatActivity implements Feed
 
 
 
-                    startChatRoom();
+                   startChatRoom();
   //                goToChat(data.getUserid(), data.getName(), data.getProfilePic(), "", data.getColorCode());
 
 
@@ -879,9 +879,9 @@ public class UserFriendProfileActivity extends AppCompatActivity implements Feed
     private void startChatRoom()
     {
 
-        if (friendsJID != null)
+       /* if (friendsJID != null)
         {
-            Intent intent = new Intent(UserFriendProfileActivity.this, XMPPChatRoomActivity.class);
+           // Intent intent = new Intent(UserFriendProfileActivity.this, XMPPChatRoomActivity.class);
 
             UserUtils.saveUserFriendsName(UserFriendProfileActivity.this,friendsName);
             UserUtils.saveFriendsID(UserFriendProfileActivity.this,friendUserId);
@@ -898,7 +898,7 @@ public class UserFriendProfileActivity extends AppCompatActivity implements Feed
             intent.putExtra(Constant.FRIENDS_COLOR, friendsColor);
             startActivity(intent);
         }
-
+*/
 
     }
 

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.myscrap"
     android:installLocation="preferExternal"
-    android:versionCode="146"
-    android:versionName="2.4.6" >
+    android:versionCode="152"
+    android:versionName="2.5.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -106,7 +106,6 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:vmSafeMode="false" >
         <meta-data

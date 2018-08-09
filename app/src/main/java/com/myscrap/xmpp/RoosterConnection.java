@@ -462,7 +462,7 @@ public class RoosterConnection implements ConnectionListener
             {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
                 {
-                    int importance = NotificationManager.IMPORTANCE_HIGH;
+                    int importance = NotificationManager.IMPORTANCE_DEFAULT; //high to def
                     NotificationChannel mChannel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, title, importance);
                     mChannel.setDescription("");
                     mChannel.enableLights(true);
@@ -516,7 +516,7 @@ public class RoosterConnection implements ConnectionListener
                 EntityBareJid jid = null;
                 try
                 {
-                    jid = JidCreate.entityBareFrom(friendsJid + "@s192-169-189-223.secureserver.net");
+                    jid = JidCreate.entityBareFrom(friendsJid + "@s192-169-189-223.secureserver.net"); //put @
                 }
                 catch (XmppStringprepException e)
                 {

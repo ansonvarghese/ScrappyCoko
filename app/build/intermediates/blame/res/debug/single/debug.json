@@ -36,24 +36,24 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_accept.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_company_interest.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\activity_company_interest.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2796.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_2796.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_company_interest.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\activity_company_interest.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f317.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f317.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_mod.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\top_mod.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f487_1f3ff.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f487_1f3ff.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_mod.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\top_mod.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f56f.png.flat",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\6aca936d4e2b2884a99efe638d95cdea\\res\\drawable\\md_btn_selected.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_receipt_gray_18dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_receipt_gray_18dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f440.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f440.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_receipt_gray_18dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_receipt_gray_18dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f31d.png.flat",
@@ -200,12 +200,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\nav_arrow_back.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_badge.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\badge.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_noti.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\mipmap-xxhdpi\\noti.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_badge.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\badge.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f326.png.flat",
@@ -272,28 +272,28 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\alert_dialog_bg.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_group_white_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_group_white_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f32c.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f32c.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_group_white_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_group_white_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4c9.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4c9.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_company_employees.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_company_employees.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f0cf.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f0cf.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4cf.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4cf.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f0cf.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f0cf.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_company_employees.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_company_employees.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f448_1f3fb.png.flat",
@@ -324,12 +324,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_no_photo.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f17e.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f17e.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_orca_emoji_category_people.png.flat",
@@ -480,12 +480,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\anim\\slide_out_likes_counter.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cluster_new_2.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\cluster_new_2.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cluster_new_2.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\cluster_new_2.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more.png.flat",
@@ -564,12 +564,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f64d.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_270b_1f3fc.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_270b_1f3fc.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4dd.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4dd.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_270b_1f3fc.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_270b_1f3fc.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_activity_empty.png.flat",
@@ -676,12 +676,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_mail_outline_black_36dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notification_empty.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_empty.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_confirm_dialog.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\custom_confirm_dialog.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notification_empty.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_empty.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_about_event.xml.flat",
@@ -756,12 +756,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notification_comment.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_message_got_receipt_from_server.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\message_got_receipt_from_server.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f64e_1f3fb.png.flat",
@@ -868,12 +868,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_view_other_hangout.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\border_view_other_hangout.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f318.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f318.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_view_other_hangout.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\border_view_other_hangout.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orca_audio_spinner_2_neue.png.flat",
@@ -892,20 +892,20 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.3.aar\\9c3c4fbe30c5f87c5623b35c5e09f43d\\res\\raw\\nested_folders.kml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f487_1f3fe.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f487_1f3fe.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_login.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f487_1f3fe.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f487_1f3fe.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2650.png.flat",
@@ -968,12 +968,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_profile_edit.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f30f.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f30f.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_near_by_list_row.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\near_by_list_row.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f30f.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f30f.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4d7.png.flat",
@@ -1056,12 +1056,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f477_1f3ff.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_places_ic_search.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\014856dd670a8b5b9e9e974caa4589ac\\res\\drawable-hdpi-v4\\places_ic_search.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f430.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f430.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_places_ic_search.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\014856dd670a8b5b9e9e974caa4589ac\\res\\drawable-hdpi-v4\\places_ic_search.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f691.png.flat",
@@ -1180,12 +1180,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f63e.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f371.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f371.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_keyboard_arrow_left_black_24dp.png.flat",
@@ -1260,12 +1260,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6b3.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f372.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f372.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fast_scroll_arrow_down.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\fast_scroll_arrow_down.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f372.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f372.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bumped.png.flat",
@@ -1276,12 +1276,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_filter.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_msgr_ic_message_state_seen.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\msgr_ic_message_state_seen.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_msgr_ic_message_state_seen.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\msgr_ic_message_state_seen.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f34a.png.flat",
@@ -1304,24 +1304,24 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\justify_center.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f520.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f520.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notification.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f520.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f520.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_favourite.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_favourite.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_place_autocomplete_progress.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\014856dd670a8b5b9e9e974caa4589ac\\res\\layout\\place_autocomplete_progress.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_bs_ic_more.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\bottomsheet-1.3.1.aar\\c875a7863ec4f8d257eb2daa7d2cfd37\\res\\drawable-xxhdpi-v4\\bs_ic_more.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_place_autocomplete_progress.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\014856dd670a8b5b9e9e974caa4589ac\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f64c_1f3fc.png.flat",
@@ -1336,12 +1336,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6b4.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2b06.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_2b06.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f639.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f639.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2b06.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_2b06.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f63d.png.flat",
@@ -1376,12 +1376,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_black_24dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f403.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f403.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_comment_outline_20.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_comment_outline_20.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f403.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f403.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f6b6_1f3fb.png.flat",
@@ -1400,12 +1400,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_notification_like.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_message.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\item_message.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f595_1f3fb.png.flat",
@@ -1536,16 +1536,16 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f404.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_delete_white_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_white_24dp.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_button_style.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-v21\\button_style.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_button_style.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-v21\\button_style.xml"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_delete_white_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_white_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_comment_grey.png.flat",
@@ -1588,16 +1588,16 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\anim\\cycle_2.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_img_toolbar_logo.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\img_toolbar_logo.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone_black_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_phone_black_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_empty_messages.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\empty_messages.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone_black_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_phone_black_24dp.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_img_toolbar_logo.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\img_toolbar_logo.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_publish_followers.xml.flat",
@@ -1648,12 +1648,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f5e1.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_format_align_right_black_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_format_align_right_black_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f42a.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f42a.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_format_align_right_black_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_format_align_right_black_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_270d_1f3fb.png.flat",
@@ -1704,12 +1704,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\665ff2de115abcd39f3006e1051f68af\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_23eb.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_23eb.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f40c.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f40c.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_23eb.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_23eb.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_black_transparent_circle_ripple.xml.flat",
@@ -1764,12 +1764,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f466_1f3fd.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_orca_composer_popup_active_normal.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-mdpi-v4\\orca_composer_popup_active_normal.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\menu_report_already.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\menu\\report_already.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_orca_composer_popup_active_normal.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-mdpi-v4\\orca_composer_popup_active_normal.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f446_1f3ff.png.flat",
@@ -1824,40 +1824,40 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f628.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_add_black_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person_add_black_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_26fa.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_26fa.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_add_black_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person_add_black_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f690.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f690.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ui_event_going_l.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ui_event_going_l.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ui_event_going_l.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ui_event_going_l.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f198.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f198.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f415.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f415.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_filter.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_action_filter.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f415.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f415.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f646_1f3ff.png.flat",
@@ -1872,16 +1872,16 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\item_log.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\665ff2de115abcd39f3006e1051f68af\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f48f.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f48f.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\665ff2de115abcd39f3006e1051f68af\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down_arrow.png.flat",
@@ -2060,12 +2060,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6c0.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend_user_post_feed.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\item_friend_user_post_feed.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_refresh_white_24dp.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_refresh_white_24dp.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_friend_user_post_feed.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\item_friend_user_post_feed.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f411.png.flat",
@@ -2084,12 +2084,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_notification.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_txt_color.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\txt_color.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f502.png.flat",
@@ -2260,12 +2260,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\item_country_drop.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dehaze_white_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_dehaze_white_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_26e9.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_26e9.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dehaze_white_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_dehaze_white_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_format_list_bulleted_black_24dp.png.flat",
@@ -2316,12 +2316,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4cc.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\0e24d53492583d13315573277eabb388\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\0e24d53492583d13315573277eabb388\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2464,12 +2464,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_26f3.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\menu_post_news_menu.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\menu\\post_news_menu.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\menu_post_news_menu.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\menu\\post_news_menu.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pm_empty.png.flat",
@@ -2564,12 +2564,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\timeline_photo_empty.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_26f5.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_26f5.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_dialog_bottom_sheet.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\content_dialog_bottom_sheet.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_26f5.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_26f5.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f423.png.flat",
@@ -2636,24 +2636,24 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4e4.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4e4.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f5d1.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f5d1.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4e4.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4e4.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_get_app_black_24dp.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_get_app_black_24dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_view_self_hangout.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\border_view_self_hangout.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location_on_black_24dp.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_location_on_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_view_self_hangout.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\border_view_self_hangout.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launch_splash.png.flat",
@@ -2932,16 +2932,16 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\event_edit.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_list.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\profile_list.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_crown.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_crown.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\665ff2de115abcd39f3006e1051f68af\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_crown.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_crown.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_list.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\profile_list.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4eb.png.flat",
@@ -3024,12 +3024,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_grid_on_white.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_mod_circle.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\bg_mod_circle.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f239.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f239.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_mod_circle.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\bg_mod_circle.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clock_small.png.flat",
@@ -3040,12 +3040,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f44f_1f3ff.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f32d.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f32d.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f44a_1f3fc.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f44a_1f3fc.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f32d.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f32d.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f474_1f3fe.png.flat",
@@ -3260,12 +3260,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f60e.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f60e.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\anim_popup_enter.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.5.aar\\6aca936d4e2b2884a99efe638d95cdea\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f60e.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f60e.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -3288,12 +3288,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_mail_outline_black_36dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4bc.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4bc.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bg_color.png.flat",
@@ -3388,12 +3388,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_action_favorited.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f6ad.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6ad.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f6ad.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6ad.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orca_audio_spinner_8_neue.png.flat",
@@ -3460,12 +3460,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_location_on_black_24dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f487_1f3fb.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f487_1f3fb.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f30a.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f30a.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f487_1f3fb.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f487_1f3fb.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_remove_red_eye_black_24dp.png.flat",
@@ -3484,12 +3484,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\msgr_ic_message_state_sending.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_grid.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\profile_grid.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4b6.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4b6.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_grid.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\profile_grid.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -3564,40 +3564,40 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_hidden_content.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f443_1f3fd.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f443_1f3fd.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_justify_left.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\justify_left.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f443_1f3fd.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f443_1f3fd.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_access_time_black_24dp.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_access_time_black_24dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detailed_post.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\content_detailed_post.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f49c.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f49c.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detailed_post.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\content_detailed_post.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f476_1f3fe.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f476_1f3fe.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_emojicon_grid.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\layout\\emojicon_grid.xml"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f365.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f365.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f504.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f504.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f365.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f365.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_emojicon_grid.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\layout\\emojicon_grid.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\anim_reverse_left_to_right.xml.flat",
@@ -3704,12 +3704,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f5fb.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_company_favourite.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_company_favourite.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_heart_outline_white.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\ic_heart_outline_white.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_company_favourite.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_company_favourite.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_group_white_24dp.png.flat",
@@ -3960,12 +3960,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f385_1f3fc.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_remove_red_eye_black_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_remove_red_eye_black_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f596_1f3fe.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f596_1f3fe.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_remove_red_eye_black_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_remove_red_eye_black_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2199.png.flat",
@@ -4160,12 +4160,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\0422afa9b81728b2fea16677d3aa6a6c\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4d3.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4d3.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f60d.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f60d.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f4d3.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f4d3.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f479.png.flat",
@@ -4204,12 +4204,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f3bf.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f6e4.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6e4.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_crown_new_3.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\crown_new_3.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f6e4.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6e4.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_remove_red_eye_black_24dp.png.flat",
@@ -4336,12 +4336,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_feeds.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_timeline_photo_empty.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\timeline_photo_empty.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
@@ -4472,12 +4472,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6ae.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_border_view_feeds_status_box.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-v21\\border_view_feeds_status_box.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_room_toolbar.xml.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\chat_room_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_border_view_feeds_status_box.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-v21\\border_view_feeds_status_box.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -4544,12 +4544,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f477_1f3fb.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_context_menu.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\view_context_menu.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f39e.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f39e.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_context_menu.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\view_context_menu.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_photos.xml.flat",
@@ -4728,12 +4728,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f339.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_web_black_24dp.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_web_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_2668.png.flat",
@@ -4756,12 +4756,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f314.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_orca_composer_tab_active.9.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-mdpi-v4\\orca_composer_tab_active.9.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f44d_1f3fc.png.flat",
@@ -5040,12 +5040,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_270a_1f3fb.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f694.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f694.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\0e24d53492583d13315573277eabb388\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f694.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f694.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_calendar_header_cell.png.flat",
@@ -5096,12 +5096,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\close_image.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f50c.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f50c.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -5296,12 +5296,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f6a2.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_msgr_ic_message_state_sending.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\msgr_ic_message_state_sending.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\0422afa9b81728b2fea16677d3aa6a6c\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_msgr_ic_message_state_sending.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\msgr_ic_message_state_sending.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -5344,12 +5344,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\place_holder_view_image.xml"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_news_view_latest.xml.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\activity_news_view_latest.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_0030.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_0030.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_news_view_latest.xml.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\layout\\activity_news_view_latest.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_instagram_white.png.flat",
@@ -5408,12 +5408,12 @@
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_black_24dp.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\0422afa9b81728b2fea16677d3aa6a6c\\res\\layout-v21\\notification_action.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f602.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f602.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\0422afa9b81728b2fea16677d3aa6a6c\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_emoji_1f64b.png.flat",
@@ -5424,20 +5424,20 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_1f555.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_check.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\ic_action_check.png"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_messages.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xhdpi\\ic_messages.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_message.png.flat",
-        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_message.png"
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_check.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable\\ic_action_check.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_crown_1.png.flat",
         "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxhdpi\\crown_1.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_message.png.flat",
+        "source": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_message.png"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_nav_settings.png.flat",
@@ -5464,12 +5464,12 @@
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\supernova-emoji-library-0.0.2.aar\\ac593570c22a88c9bc1df67c9088ac3b\\res\\drawable-nodpi-v4\\emoji_270b_1f3fd.png"
     },
     {
-        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
-        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\ms3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\11034b30ccc177d3138039f79033e29f\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\Anson\\finalfix\\Android MyScrap modified\\app\\build\\intermediates\\res\\merged\\debug\\layout_md_listitem_singlechoice.xml.flat",

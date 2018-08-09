@@ -463,7 +463,7 @@ public class XMPPChatContactActivity extends AppCompatActivity  implements Searc
         }
 
         finish();
-        startActivity(new Intent(getApplicationContext(),XMPPChatContactActivity.class));
+       // startActivity(new Intent(getApplicationContext(),XMPPChatContactActivity.class));
 
     }
 
